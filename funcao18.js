@@ -1,14 +1,9 @@
+var nomes = []
+var senhas = []
+var index = 0 
 
-function VerificarValor() {
-     var numero = parseInt(prompt("Insira o número que deseja verificar"))
-     if (numero > 0) {
-          return 1
-     } else if (numero < 0) {
-          return -1
-     } else {
-          return 0
-     }
+function CadastrarUsuario() {
+     nomes{index} = prompt("Insira o nome para cadastro")
+     senhas{index} = prompt("Crie sua senha para cadastro")
+     index++
 }
-
-var retorno = VerificarValor()
-console.log(retorno)
